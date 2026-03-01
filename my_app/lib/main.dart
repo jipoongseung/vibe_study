@@ -32,7 +32,7 @@ class MyApp extends StatelessWidget {
       ),
       
       // home: 앱이 시작될 때 보여줄 첫 화면
-      home: const MyHomePage(title: 'Flutter Demo Home Page'),
+      home: const MyHomePage(title: '나의 첫 플러터앱 '),
     );
   }
 }

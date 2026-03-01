@@ -6,3 +6,11 @@ alwaysApply: false
 
 # 규칙 제목
 
+Scope: lib/src/presentation//*.dart
+Rules:
+    - 상태 없는 위젯은 StatelessWidget 사용
+    - 상태 관리가 필요한 위젯은 Riverpod의 ConsumerWidget 또는 ConsumerStatefulWidget 사용 (Provider, Bloc 등 다른 라이브러리 명시 가능)
+    - Material 3 디자인 시스템 및 관련 위젯 사용 권장 (`useMaterial3: true` 기반)
+    - 가능한 경우 `const` 생성자 및 위젯 사용 (성능 최적화)
+    - Dart 스타일 가이드의 네이밍 컨벤션(PascalCase for widgets/classes, camelCase for variables/functions) 준수
+
